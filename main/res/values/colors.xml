@@ -20,5 +20,6 @@
     <color name="cheng">#ea9518</color>
     <color name="lv">#2aa515</color>
 
-    <color name="my_primary">#4563</color>
+    <color name="my_primary">#009688</color>
+    <color name="my_secondary">#9900897B</color>
 </resources>

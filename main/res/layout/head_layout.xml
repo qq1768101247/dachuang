@@ -11,23 +11,21 @@
        android:background="@color/blue"
        android:layout_width="match_parent"
        android:layout_height="45dp">
-
        <TextView
            android:id="@+id/titleTxt"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:gravity="center"
+           android:textSize="20sp"
            android:textColor="@color/white"
-           android:textSize="20sp" />
-
-       <ImageView
-           android:id="@+id/backImg"
-           android:layout_width="30dp"
-           android:layout_height="30dp"
-           android:layout_centerVertical="true"
-           android:onClick="backImg"
-           android:src="@mipmap/fanhui"
-           tools:ignore="OnClick" />
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+        <ImageView
+            android:onClick="backImg"
+            android:id="@+id/backImg"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            tools:ignore="OnClick" />
        <ImageView
            android:id="@+id/rightImg"
            android:onClick="rightImg"
