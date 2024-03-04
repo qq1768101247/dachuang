@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cmp" />
+    <version value="10" />
+    <list>
+        <mapping class="com.management.pp.bean.UserBean"></mapping>
+        <mapping class="com.management.pp.bean.ArableLandBean"></mapping>
+        <mapping class="com.management.pp.bean.CommentsBean"></mapping>
+        <mapping class="com.management.pp.bean.PlanBean"></mapping>
+    </list>
+</litepal>

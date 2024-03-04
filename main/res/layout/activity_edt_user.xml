@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/a"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <include
+
+        tools:ignore="ResourceCycle"
+        layout="@layout/head_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <EditText
+
+                android:layout_weight="1"
+                android:id="@+id/phoneEdt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/baise_round_20"
+                android:gravity="center|left"
+                android:hint="请输入电话"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:id="@+id/sexEdt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/baise_round_20"
+                android:gravity="center|left"
+                android:hint="请输入性别"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:id="@+id/ageEdt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/baise_round_20"
+                android:gravity="center|left"
+                android:hint="请输入年龄"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:id="@+id/pwdEdt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/baise_round_20"
+                android:gravity="center|left"
+                android:hint="请输入密码"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:id="@+id/conEdt"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/baise_round_20"
+                android:gravity="center|left"
+                android:hint="请输入介绍"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/saveTxt"
+                    android:layout_weight="1"
+                    android:text="修   改"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
